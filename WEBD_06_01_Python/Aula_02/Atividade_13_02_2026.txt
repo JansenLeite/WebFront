@@ -1,0 +1,12 @@
+1) Crie um programa que receba o nome do cliente, idade e peso. Caso o cliente possua idade acima de 60 anos, deverá mostrar o status "MELHOR IDADE", caso contrário "SUPLENTE". No final mostre todas as informações incluindo o STATUS.
+
+
+
+
+
+2) Crie um programa que receba nome do aluno e 3 notas inteiras de 0 a 10.
+Caso a média entre as 3 notas seja menor que 4, o mesmo estará REPROVADO.
+Caso a média entre as 3 notas seja maior ou igual que 4 e menor ou igual a 6, o mesmo estará de RECUPERAÇÃO.
+Caso a média entre as 3 notas seja maior que 6, o mesmo estará APROVADO.
+
+
