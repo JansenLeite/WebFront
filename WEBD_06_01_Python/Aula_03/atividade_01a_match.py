@@ -4,8 +4,12 @@ while start:
     match campo:
         case 1:
             try:
-                nome = str(input("Digite seu nome completo: "))
-                campo +=1
+                nome = input("Digite seu nome completo: ")
+                nome_tratado = nome.replace(" ", "")
+                if nome_tratado.isalpha():
+                    campo +=1
+                else:
+                    print("São aceitos apenas letras... Por favor, digite novamente!\n")
             except:
                 print("Nome de usuario inválido!")
         case 2:
