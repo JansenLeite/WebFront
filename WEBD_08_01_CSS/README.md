@@ -33,3 +33,8 @@ font-family: arial; **Familia de Fontes**<br />
 color: #0099cc; **Cor Azul**. [click aqui para acessa-la](https://www.flextool.com.br/tabela_cores.html)<br />
 display: block; **Quebra de linha**<br />
 font-weight: bold; **Configura o Negrito**<br />
+
+# Glossário
+
+**Tabela de Cores Web**
+[Tabela de Cores Web](https://www.flextool.com.br/tabela_cores.html)](https://www.flextool.com.br/tabela_cores.html)
