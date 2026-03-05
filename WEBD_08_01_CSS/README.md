@@ -11,7 +11,7 @@
 
 #Estrutura CSS - Texto
 
-font-size: 12px; /* Tamanho da Fonte */
-font-family: arial; /* Familia de Fontes*/
-color: #0099cc; /* Cor Azul */ consultar tabelas de cores WEB.
+font-size: 12px; *Tamanho da Fonte*
+font-family: arial; *Familia de Fontes*
+color: #0099cc; *Cor Azul *. [click aqui para acessa-la](https://www.flextool.com.br/tabela_cores.html)
 display: block;
