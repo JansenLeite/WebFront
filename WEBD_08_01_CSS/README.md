@@ -35,6 +35,7 @@
 **font-weight: bold;** Configura o Negrito<br />
 **display: block;** Quebra de linha<br />
 **position: relative;** Posicionamento de elemnto (utlizado em box)<br />
+**float: left;** Sentido de carregamento do elemento.<br />
 **margin-top: 10px;** Margin em relação ao topo<br />
 **margin-buttom: 10px;** Margin em relação ao rodapé<br />
 **margin-left: 10px;** Margin em relação a esquerda<br />
@@ -45,6 +46,8 @@
 **padding-left: 10px;** Espaço interno em relação a esquerda<br />
 **padding-right: 10px;** Espaço interno em relação a direita<br />
 **padding: 10px 15px 20px 30px;** Espaço interno em relação ao Topo, Direita, Rodapé e Esquerda<br />
+**width: 500px;** Largura do elemento.<br />
+**height: 200px;** Altura do elemento.<br />
 
 
 # Glossário
