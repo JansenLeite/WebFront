@@ -11,7 +11,7 @@
 
 # Estrutura CSS - Declaração
 
-**Acessando elemento. Exemplo:**
+**Acessando elemento. Exemplo:**<br />
 p{<br />
   parametros;<br />
 }<br />
