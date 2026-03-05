@@ -21,6 +21,11 @@
 &nbsp;&nbsp;&nbsp; parametros;<br />
 &nbsp;}<br />
 
+**Acessando ID. Exemplo:**<br /><br />
+&nbsp;#nomedoid{<br />
+&nbsp;&nbsp;&nbsp; parametros;<br />
+&nbsp;}<br />
+
 # Estrutura CSS - Texto
 
 font-size: 12px; **Tamanho da Fonte**<br />
