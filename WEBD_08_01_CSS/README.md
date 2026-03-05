@@ -36,5 +36,5 @@ font-weight: bold; **Configura o Negrito**<br />
 
 # Glossário
 
-**Tabela de Cores Web**
-[Tabela de Cores Web](https://www.flextool.com.br/tabela_cores.html)](https://www.flextool.com.br/tabela_cores.html)
+**Tabela de Cores Web**<br />
+[https://www.flextool.com.br/tabela_cores.html](https://www.flextool.com.br/tabela_cores.html)
