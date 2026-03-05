@@ -8,6 +8,10 @@
 3.5. Elementos de formatação e posicionamento<br />
 3.6. Conceito de responsividade<br />
 3.7. Flexbox<br />
+<br /><br />
+**Declarando CSS em HTML:**<br /><br />
+<style type="text"></style>
+
 
 # Estrutura CSS - Declaração
 
