@@ -11,10 +11,10 @@
 
 # Estrutura CSS - Declaração
 
-**Acessando elemento. Exemplo:**<br />
-p{<br />
+**Acessando elemento. Exemplo:**<br /><br />
+&nbsp;p{<br />
 &nbsp;&nbsp;&nbsp; parametros;<br />
-}<br />
+&nbsp;}<br />
 
 # Estrutura CSS - Texto
 
