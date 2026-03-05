@@ -16,6 +16,11 @@
 &nbsp;&nbsp;&nbsp; parametros;<br />
 &nbsp;}<br />
 
+**Acessando classe. Exemplo:**<br /><br />
+&nbsp;.nomedaclasse{<br />
+&nbsp;&nbsp;&nbsp; parametros;<br />
+&nbsp;}<br />
+
 # Estrutura CSS - Texto
 
 font-size: 12px; **Tamanho da Fonte**<br />
