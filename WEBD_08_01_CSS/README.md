@@ -9,7 +9,7 @@
 3.6. Conceito de responsividade<br />
 3.7. Flexbox<br />
 
-#Estrutura CSS - Texto
+# Estrutura CSS - Texto
 
 font-size: 12px; *Tamanho da Fonte*<br />
 font-family: arial; *Familia de Fontes*****
