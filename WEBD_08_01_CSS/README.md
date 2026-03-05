@@ -27,13 +27,25 @@
 &nbsp;&nbsp;&nbsp; parametros;<br />
 &nbsp;}<br />
 
-# Estrutura CSS - Texto
+# Estrutura CSS - Principais parâmetros
 
 **font-size: 12px;** Tamanho da Fonte<br />
 **font-family: arial;** Familia de Fontes<br />
-**color: #0099cc;** Cor Azul.<br />
-**display: block;** Quebra de linha<br />
+**color: #0099cc;** Cor da fonte Azul.<br />
 **font-weight: bold;** Configura o Negrito<br />
+**display: block;** Quebra de linha<br />
+**position: relative;** Posicionamento de elemnto (utlizado em box)<br />
+**margin-top: 10px;** Margin em relação ao topo<br />
+**margin-buttom: 10px;** Margin em relação ao rodapé<br />
+**margin-left: 10px;** Margin em relação a esquerda<br />
+**margin-right: 10px;** Margin em relação a direita<br />
+**margin: 10px 15px 20px 30px;** Margin em relação ao Topo, Direita, Rodapé e Esquerda<br />
+**padding-top: 10px;** Espaço interno em relação ao topo<br />
+**padding-buttom: 10px;** Espaço interno em relação ao rodapé<br />
+**padding-left: 10px;** Espaço interno em relação a esquerda<br />
+**padding-right: 10px;** Espaço interno em relação a direita<br />
+**padding: 10px 15px 20px 30px;** Espaço interno em relação ao Topo, Direita, Rodapé e Esquerda<br />
+
 
 # Glossário
 
