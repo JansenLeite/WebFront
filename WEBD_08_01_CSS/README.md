@@ -13,7 +13,7 @@
 
 **Acessando elemento. Exemplo:**<br />
 p{<br />
-&nbsp; parametros;<br />
+&nbsp;&nbsp;&nbsp; parametros;<br />
 }<br />
 
 # Estrutura CSS - Texto
