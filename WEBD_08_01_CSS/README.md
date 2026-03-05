@@ -38,3 +38,6 @@ font-weight: bold; **Configura o Negrito**<br />
 
 **Tabela de Cores Web**<br />
 [https://www.flextool.com.br/tabela_cores.html](https://www.flextool.com.br/tabela_cores.html)
+<br /><br />
+**W3SCHOOLS.COM**<br />
+[https://www.w3schools.com/](https://www.w3schools.com/)
