@@ -48,7 +48,7 @@
 **padding: 10px 15px 20px 30px;** Espaço interno em relação ao Topo, Direita, Rodapé e Esquerda<br />
 **width: 500px;** Largura do elemento.<br />
 **height: 200px;** Altura do elemento.<br />
-**Background-color:** blue; Coe de fundo do elemento.<br />
+**Background-color:** blue; Cor de fundo do elemento.<br />
 
 
 # Glossário
