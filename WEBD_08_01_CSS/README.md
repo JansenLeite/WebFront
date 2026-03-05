@@ -9,6 +9,12 @@
 3.6. Conceito de responsividade<br />
 3.7. Flexbox<br />
 
+# Estrutura CSS - Declaração
+
+p{
+  parametros;
+}
+
 # Estrutura CSS - Texto
 
 font-size: 12px; **Tamanho da Fonte**<br />
