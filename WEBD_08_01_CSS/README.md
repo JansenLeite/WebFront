@@ -29,11 +29,11 @@
 
 # Estrutura CSS - Texto
 
-font-size: 12px; **Tamanho da Fonte**<br />
-font-family: arial; **Familia de Fontes**<br />
-color: #0099cc; **Cor Azul**.
-display: block; **Quebra de linha**<br />
-font-weight: bold; **Configura o Negrito**<br />
+**font-size: 12px;** Tamanho da Fonte<br />
+**font-family: arial;** Familia de Fontes<br />
+**color: #0099cc;** Cor Azul.
+**display: block;** Quebra de linha<br />
+**font-weight: bold;** Configura o Negrito<br />
 
 # Glossário
 
