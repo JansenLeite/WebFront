@@ -12,7 +12,7 @@
 # Estrutura CSS - Texto
 
 font-size: 12px; *Tamanho da Fonte*<br />
-font-family: arial; *Familia de Fontes*****
+font-family: arial; *Familia de Fontes*<br />
 color: #0099cc; *Cor Azul *. [click aqui para acessa-la](https://www.flextool.com.br/tabela_cores.html)<br />
-display: block;<br /> *Quebra de linha*
-font-weight: bold;<br /> *COnfigura o Negrito*
+display: block; *Quebra de linha*<br />
+font-weight: bold; *COnfigura o Negrito*<br />
