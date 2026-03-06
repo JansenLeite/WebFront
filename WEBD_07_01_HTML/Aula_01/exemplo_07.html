@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Trabalhando com Formulários</title>
+</head>
+<body>
+     <!-- 
+        A TAG FORM é utilizada para definir a estrutura 
+        de envio de dados através dos elementos de entrada 
+        e seleção de dados.
+
+        ## Atributos do FORMS
+            action =>   define qual arquivo irá 
+            processar (receber a informação enviada)
+                ex: 
+                    <form action="processa.php" method="">
+
+            method => Defini de qual forma esses dados serão
+            enviados e acessados.
+                ex:
+                    <form action="processa.php" method="GET">  
+
+                        parametro GET => Os dados ficam disponíveis
+                        na URL do arquivo definido no action.
+                        parametro POST => Os dados precisam ser recuperados
+                        no arquivo definido no action.
+
+        ## Atributos do <input />
+                type    => Tipagem de entrada de dados (text, password, submit, file)
+                name    => Nome do campo utilizado como chave para envio da informação.
+                placeholder => mensagem de texto de exemplo (mantém o campo vazio).
+                rows    => Numero de linhas (utilizado no <textarea>).
+    -->
+    <h4>Entre em contato</h4>
+    <form action="" method="">
+        <input type="text" name="nome" placeholder="Tiago Vale"/> Nome<br /><br />
+        <input type="text" name="fone" placeholder="(XX)XXXX-XXXX"/> Fone<br /><br />
+        <input type="text" name="mail" placeholder="fulano@mail.com"/> Email<br /><br />
+        <textarea name="opiniao" rows="5" placeholder="Deixe sua opinião..."></textarea><br /><br />
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>

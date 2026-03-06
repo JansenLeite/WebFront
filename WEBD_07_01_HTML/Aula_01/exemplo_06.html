@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Trabalhando com Tabelas mescladas</title>
+</head>
+<body>
+    <!--
+        Atributos - São comandos inseridos dentro de uma tag acompahandos de parâmetros
+        Exemplo:
+            <body border="">
+                border  => Atributo
+                2       => Parâmetro do Atributo.
+            Obs: Este parâmetro determina bordar de largura 2 para todos os elementos da tabela.
+
+            <td colspan="4"> => determina a fusão de 4 células na Horizontal (colunas)
+            <td rowspan="2"> => determina a fusão de 4 células na Vertical (linhas)
+    -->
+    <table border="2">
+        <tr>
+            <td>Marca:</td>
+            <td>Modelo:</td>
+            <td>Ano:</td>
+            <td>Valor:</td>
+        </tr>
+        <tr>
+            <td>Volkswagen</td>
+            <td>Golf</td>
+            <td>2009</td>
+            <td>R$38.500</td>
+        </tr>
+        <tr>
+            <td>Fiat</td>
+            <td>Palio</td>
+            <td>2010</td>
+            <td>R$19.700</td>
+        </tr>
+        <tr>
+            <td>Honda</td>
+            <td>Civic</td>
+            <td>2012</td>
+            <td>R$61.500</td>
+        </tr>
+        <tr>
+            <td colspan="4">O melhor preço da região</td>
+        </tr>
+    </table>
+</body>
+</html>
