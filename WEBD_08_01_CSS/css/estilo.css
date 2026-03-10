@@ -1,0 +1,31 @@
+.titulo1{
+    font-family: arial; /*Seleciona a Fonte*/
+    font-size: 50px; /*Determina o tamanho da fonte*/
+    color: pink; /*Determina a cor da fonte*/
+}
+
+.subtitulo1{
+    font-family: calibri; 
+    font-size: 20px;
+    color: rgb(219, 187, 25); 
+}
+
+.paragrafo1, .paragrafo2, .paragrafo3{
+    font-family: arial; 
+    font-size: 30px; 
+}
+
+.paragrafo1{
+    color: pink;
+    text-align: right; /*Alinhamento a Direita*/
+}
+
+.paragrafo2{
+    color: purple;
+    text-align: center; /*Alinhamento ao centro*/
+}
+
+.paragrafo3{
+    color: green;
+    text-align: left; /*Alinhamento a Esquerda*/
+}
