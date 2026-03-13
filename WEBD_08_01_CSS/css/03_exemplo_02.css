@@ -1,0 +1,33 @@
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #103d90;
+}
+
+table{
+    border-collapse: collapse; /* Elimina espaços entre os elemnetos da tabela*/
+    border-spacing: 0; /* Elimina o espaço das bordas*/
+    font-size: 18px;
+    font-family: arial;
+    color: #636262;
+    width: 800px;
+}
+
+tr{
+    line-height: 36px;
+}
+
+table tr:nth-child(even){ /*odd=> impar, even=> par*/
+    background-color: #fff1ee;
+}
+
+tr:first-child{
+    background: #ff5500 !important;
+    color: #fff;
+    border-top: solid 2px #103d90;
+    font-weight: bold;
+}
+
+td{
+    padding-left: 10px;
+}
