@@ -1,0 +1,43 @@
+table{
+    border-collapse: collapse; /* Elimina espaços entre os elemnetos da tabela*/
+    border-spacing: 0; /* Elimina o espaço das bordas*/
+    font-size: 20px;
+    font-family: arial;
+    color: #636262;
+    width: 500px;
+}
+
+tr{
+    line-height: 40px;
+    border-bottom: solid 2px #d8d8d8;
+}
+
+table tr:nth-child(odd){ /*odd=> impar, even=> par*/
+    background-color: #e6e6e6;
+}
+
+tr:first-child{
+    background: #009579 !important;
+    color: #fff;
+}
+
+tr:last-child{
+    border-bottom: solid 4px #009579;
+}
+
+td{
+    padding-left: 10px;
+}
+
+.cab1 td:first-child{
+    border-radius: 10px 0px 0px 0px;
+}
+
+.cab1 td:last-child{
+    border-radius: 0px 10px 0px 0px;
+}
+
+.ln2{
+    color: #009579;
+    font-weight: bold;
+}
