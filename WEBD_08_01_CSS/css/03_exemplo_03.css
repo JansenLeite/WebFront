@@ -1,0 +1,97 @@
+/* Corpo da página */
+body{
+    background: #eeeeee; /* Cor de Fundo*/
+    display: flex; /*Define a estrutura FLEX para BOX (caixas)*/
+    justify-content: center; /* Centraliza elementos horizontamente*/
+    align-items: center; /* Centraliza elementos na vertical*/
+    min-height: 100vh; /* Garante que o body ocupe a altura total da tela.*/
+}
+
+/* Formulário*/
+form{
+    border-style: solid; /*Estilo de borda*/
+    border-width: 1px 1px 0px 1px; /*direção das bordas*/
+    border-color: #ccc;/*Cor de borda*/
+    padding: 20px; /* Espaço interno de 20px para todos os lados*/
+    background: #f6f6f6; /* Cor de fundo */
+}
+
+/* Titulo "LOGIN"*/
+h6{
+    font-family: Arial, Helvetica, sans-serif; /* Familia de Fonte */
+    font-size: 35px; /* Tamanho da fonte */
+    color: #016b75; /* Cor da Fonte */
+    text-align: center; /* Alinha texto ao centro */
+    padding: 20px; /*Espaçamento interno para todos os lados*/
+    margin: 0; /* Zera a margin*/
+}
+
+/* Subtitulos */
+.subtit{
+    font-family: Arial, Helvetica, sans-serif; /* Familia de Fonte */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #016b75; /* Cor da Fonte */
+    text-align: left; /* Alinha texto a esquerda */
+    padding: 5px 0px; /*Espaçamento interno para (topo e rodape)*/
+    margin: 0; /* Zera a margin*/
+}
+
+/* Inputs (E-mail e Senha) */
+.inp{
+    font-family: Arial, Helvetica, sans-serif; /* Familia de Fonte */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #444444; /* Cor da Fonte */
+    text-align: left; /* Alinha texto a esquerda */
+    width: 100%; /* Largura do elemento */
+    padding: 5px; /*Espaçamento Interno*/
+    margin-bottom: 10px ;
+}
+
+/* Input Checkbox - Manter-me Logado */
+.chk{
+    border: solid 1px #cccccc; /*Estilo, tamanho e cor para todas as bordas*/
+    margin-bottom: 10px; /*Espaço da margem em relação ao rodapé*/
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif; /* Familia de Fonte */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #016b75; /* Cor da Fonte */    
+    text-align: left; /* Alinha texto a esquerda */
+}
+
+/* input - Botão Enviar */
+.bt_enviar{
+    font-family: Arial, Helvetica, sans-serif; /* Familia de Fonte */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #ffffff; /* Cor da fonte */
+    text-align: center; /* Alinha texto ao centro */
+    background: #016b75; /* Cor de fundo do botão */
+    border: 0; /* Borda do botão */
+    padding: 10px; /* Espaço interno do botão para todos os lados */
+    width: 100%; /* Largura do botão */
+}
+
+/* Ainda não possui conta*/
+.conta{
+    font-family: Arial, Helvetica, sans-serif; /* Familia de Fonte */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #555555; /* Cor da fonte */
+    background: #e1e9eb; /* Cor de fundo */
+    padding: 20px 20px; /* Espaçamento para todos os lados*/ 
+    text-align: right; /*Alinhamento do Texto*/
+    margin: 0; /*Zera as margens*/
+    border-style: solid; /*Estilo de borda*/
+    border-width: 0px 1px 1px 1px; /*Direção das bordas*/
+    border-color: #ccc; /*Cor da borda*/
+}
+
+.conta a{
+    font-family: Arial, Helvetica, sans-serif; /* Familia de Fonte */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #016b75; /* Cor da fonte */
+    background: #ffffff; /* Cor de fundo */
+    padding: 5px; /* Espaçamento interno para todos os lados*/ 
+    border: solid 1px #ddeda8; /* Borda*/
+    text-decoration: none; /* Remove o sublinhado do link*/
+}
