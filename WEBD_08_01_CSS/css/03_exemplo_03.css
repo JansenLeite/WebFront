@@ -19,11 +19,19 @@ form{
 /* Titulo "LOGIN"*/
 h6{
     font-family: Arial, Helvetica, sans-serif; /* Familia de Fonte */
-    font-size: 35px; /* Tamanho da fonte */
+    font-size: 50px; /* Tamanho da fonte */
     color: #016b75; /* Cor da Fonte */
     text-align: center; /* Alinha texto ao centro */
     padding: 20px; /*Espaçamento interno para todos os lados*/
     margin: 0; /* Zera a margin*/
+}
+
+/* Linha que separa o titulo */
+.linha{
+    height: 2px; /* Altura do elemento*/
+    width: 100%; /* LArgura do Elemento*/
+    background-image: linear-gradient(to right, #e8f7f8, #017682, #e8f7f8); /* Cor de fundo mesclando 3 cores*/
+    margin-bottom: 20px; /* Margem em relação ao rodapé*/
 }
 
 /* Subtitulos */
@@ -43,14 +51,15 @@ h6{
     color: #444444; /* Cor da Fonte */
     text-align: left; /* Alinha texto a esquerda */
     width: 100%; /* Largura do elemento */
-    padding: 5px; /*Espaçamento Interno*/
+    padding: 10px 5px; /*Espaçamento Interno*/
     margin-bottom: 10px ;
+    border: solid 1px #ccc;
 }
 
 /* Input Checkbox - Manter-me Logado */
 .chk{
     border: solid 1px #cccccc; /*Estilo, tamanho e cor para todas as bordas*/
-    margin-bottom: 10px; /*Espaço da margem em relação ao rodapé*/
+    margin-bottom: 20px; /*Espaço da margem em relação ao rodapé*/
 }
 
 span{
