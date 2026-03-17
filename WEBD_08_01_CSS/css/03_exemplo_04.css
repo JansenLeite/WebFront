@@ -1,0 +1,79 @@
+/* Corpo da página */
+body{
+    background: #33a4c2; /* Cor de Fundo*/
+    display: flex; /*Define a estrutura FLEX para BOX (caixas)*/
+    justify-content: center; /* Centraliza elementos horizontamente*/
+    align-items: center; /* Centraliza elementos na vertical*/
+    min-height: 100vh; /* Garante que o body ocupe a altura total da tela.*/
+    width: 800px;
+}
+
+/* Formulário*/
+form{
+    padding: 20px; /* Espaço interno de 20px para todos os lados*/
+}
+
+/* Titulo "LOGIN"*/
+h6{
+    font-family: Arial, Helvetica, sans-serif; /* Familia de Fonte */
+    font-size: 50px; /* Tamanho da fonte */
+    color: #016b75; /* Cor da Fonte */
+    text-align: center; /* Alinha texto ao centro */
+    padding: 20px; /*Espaçamento interno para todos os lados*/
+    margin: 0; /* Zera a margin*/
+}
+
+.box{
+    position: relative;
+    float: left;
+    text-align: left;
+    width: 800px;
+    height: auto;
+    display: block;
+}
+
+.box_name{
+    position: relative; /*Posição relativa à estrutura anterior*/
+    margin: 0 auto; /*Margem*/
+    float: left; /*Força a estrutura a iniciar da esquerda para a direita*/
+    width: 150px; /*Lagura*/
+    height: 50px; /*Altura*/
+    text-align: left; /*Alinhamento dos elementos*/
+}
+
+.subtit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.box_input{
+    position: relative; /*Posição relativa à estrutura anterior*/
+    margin: 0 auto; /*Margem*/ 
+    float: left; /*Força a estrutura a iniciar da esquerda para a direita*/
+    width: 650px; /*Lagura*/
+    height: auto; /*Altura*/
+    text-align: left; /*Alinhamento dos elementos*/
+    line-height: 50px; /* Autura da linha da estrutura*/
+}
+
+.inpname1, .inpname2, .inpmail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666666;
+    border: solid 1px #ccc;
+    padding: 8px 6px;
+}
+
+.inpname1, .inpname2{
+    width: 300px;
+}
+
+.inpname2{
+    margin-left: 18px;
+}
+
+.inpmail{
+    width: 636px;
+}
