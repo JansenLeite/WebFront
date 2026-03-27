@@ -130,7 +130,7 @@ body{
 }
 
 .menu_box_1_pesq{
-    background: yellow;
+    background: white;
 }
 
 .menu_box_1_entre{
@@ -145,4 +145,30 @@ body{
     float: left;
     height: 45px;
     padding: 20px 0px;
+}
+
+.inp_pesq{
+    font-family: arial;
+    font-size: 14px;
+    color: #333;
+    padding: 8px 5px;
+    border: solid 1px #ff009c;
+    float: left;
+}
+
+.btpesq{
+    height: 34px;
+    width: 30px;
+    background-color: #ff009c;
+    margin: 0;
+    float: left;
+    border: solid 1px #ff009c;
+    background-image: url("../images/lupa.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 15px 15px;
+}
+
+.menu_box_1_pesq form{
+    padding: 26px 0px;
 }
