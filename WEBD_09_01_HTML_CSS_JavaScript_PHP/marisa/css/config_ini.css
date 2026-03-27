@@ -116,3 +116,33 @@ body{
     height: 60px;
     background: red;
 }
+
+.menu_box_1_logo, .menu_box_1_pesq, .menu_box_1_entre, .menu_box_1_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 256px;
+    height: 85px;
+}
+
+.menu_box_1_logo{
+    background: white;
+}
+
+.menu_box_1_pesq{
+    background: yellow;
+}
+
+.menu_box_1_entre{
+    background: purple;
+}
+
+.menu_box_1_car{
+    background: grey;
+}
+
+.img_logo2{
+    float: left;
+    height: 45px;
+    padding: 20px 0px;
+}
