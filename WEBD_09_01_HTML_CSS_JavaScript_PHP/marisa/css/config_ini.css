@@ -137,10 +137,6 @@ body{
     background-size: 30px 30px;
 }
 
-.menu_box_1_car{
-    background: grey;
-}
-
 .img_logo2{
     float: left;
     height: 45px;
@@ -194,4 +190,25 @@ body{
     background-position: center center; 
     background-repeat: no-repeat; 
     background-size: 30px 30px;
+}
+
+.box_car span{
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    color: #fff;
+    background: #ff009c;
+    padding: 1px 5px;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.box_texto_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 206px;
+    height: 85px;
+    background: pink;
 }
