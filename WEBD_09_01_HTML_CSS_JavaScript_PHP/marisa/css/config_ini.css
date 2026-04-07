@@ -341,3 +341,193 @@ body{
     font-size: 13px;
     color: #666;
 }
+
+
+.rodape{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.rodape_box1, .rodape_box2, .rodape_box3{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.rodape_box1{
+    background-color: #797073;
+}
+
+.rodape_box2{
+    background-color: #fff;
+}
+
+.rodape_box3{
+    background: #f2f1ef
+}
+
+.rodape_novidades, .box2_menu, .box3_certificado{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nov1, .nov2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 512px;
+    height: 100px;    
+    text-align: center;
+}
+
+.nov1 label, .nov2 label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.nov1 button{
+    padding: 8px 15px;
+    font-size: 15px;
+    background-color: #ff009c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nov1 button:hover{
+    background-color: #c90278;
+}
+
+.nov2 a{
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.menu_col1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 180px;
+    height: auto;
+}
+
+.menu_col2{
+    position: relative;
+    margin: 0 auto;
+    float: right;
+    width: 250px;
+    height: auto;
+}
+
+.sub_tit1{
+    font-size: 16px;
+    color:#ff009c;
+    display: block;
+    text-align: left;
+    margin-top: 20px;  
+    margin-bottom: 10px;  
+}
+
+.link_menu{
+    font-size: 16px;
+    color:#666;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom:10px;
+}
+
+.link_menu:hover{
+    color: #ff009c;
+}
+
+.menu_col2 label{
+    font-size: 16px;
+    color:#666;
+    display: block;
+    text-align: left;
+    margin-top: 20px;  
+    margin-bottom: 10px; 
+    display: block;
+}
+
+.link_ajuda, .link_encontre{
+    display: block;
+    padding: 10px 50px;
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+    text-decoration: none;
+    color: #999;
+    margin: 10px 0px;
+}
+
+.link_ajuda:hover, .link_encontre:hover{
+    color:#ff009c;
+}
+
+.link_ajuda{
+    background-image: url("../images/ico_ajuda.png");
+}
+
+.link_encontre{
+    background-image: url("../images/ico_localizacao_cinza.png");
+}
+
+.box3_selos, .box3_pag, .box3_end{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.opc3_selos, .form3_Pag{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    line-height: 80px;
+    float: left;
+    padding: 10px 40px;
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+}
+
+.opc3_selos{
+    background-image: url("../images/ico-seguranca-.png");
+}
+
+.form3_Pag{
+    background-image: url("../images/ico-cartaocredito-footer-.png");
+}
+
+.box3_selos img{
+    float: left;
+}
+
+.box3_end label{
+    font-size: 14px;
+    color: #666;
+}
+
+.box3_end label{
+    color: #333;
+}
