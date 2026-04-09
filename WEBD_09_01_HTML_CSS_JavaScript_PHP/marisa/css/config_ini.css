@@ -531,3 +531,83 @@ body{
 .box3_end label{
     color: #333;
 }
+
+.sessao_bn2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.bn2_box1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 49%;
+}
+
+.bn2_box1 img, .bn2_box2 img, .sessao_bn1 img{
+    width: 100%;
+}
+
+.bn2_box2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 49%;
+    margin-left: 2%;
+}
+
+
+.sessao_bn1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.marcas{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.marcas h3, .marcas label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #444;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.marcas a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.marcas_box, .marcas_box1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 24%;
+    margin-right: 1%;
+}
+
+.marcas_box1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 25%;
+}
