@@ -22,7 +22,7 @@
             <input type="text" name="login" placeholder="Informe e-mail ou CPF" class="inp_login" />
 
             <label>Senha *</label>
-            <input type="text" name="senha" placeholder="Informe senha" class="inp_login"/>
+            <input type="text" name="senha" placeholder="Informe senha" class="inp_login" />
 
             <a href="" class="link_esqueceu">Esqueceu sua senha?</a>
 
