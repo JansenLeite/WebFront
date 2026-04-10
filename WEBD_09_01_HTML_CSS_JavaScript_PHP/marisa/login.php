@@ -35,7 +35,7 @@
 
             <input type="submit" value="Entrar" class="bt_entrar" />
 
-            <b>Ainda não tem um cadastro? <a href="" class="link_crie">Crie sua conta</a></b>
+            <b>Ainda não tem um cadastro? <a href="cadastro.php" class="link_crie">Crie sua conta</a></b>
         </form>
     </div>
     <!-- Fim - Login -->
