@@ -7,6 +7,8 @@
     <style type="text/css">@import url("css/config_ini.css");</style>
     <style type="text/css">@import url("css/login.css");</style>
 
+    <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.png" />
+
     <title>Marisa - Login</title>
 </head>
 <body>
@@ -22,13 +24,18 @@
             <input type="text" name="login" placeholder="Informe e-mail ou CPF" class="inp_login" />
 
             <label>Senha *</label>
-            <input type="text" name="senha" placeholder="Informe senha" class="inp_login" />
+            <span class="input_nome">
+                <input type="text" name="senha" placeholder="Informe senha" class="inp_login" />
+                <span class="box_bt_mostrar">
+                    <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
+                </span>
+            </span>
 
             <a href="" class="link_esqueceu">Esqueceu sua senha?</a>
 
             <input type="submit" value="Entrar" class="bt_entrar" />
 
-            <b>Ainda não tem um cadastro? <a href="">Crie sua conta</a></b>
+            <b>Ainda não tem um cadastro? <a href="" class="link_crie">Crie sua conta</a></b>
         </form>
     </div>
     <!-- Fim - Login -->

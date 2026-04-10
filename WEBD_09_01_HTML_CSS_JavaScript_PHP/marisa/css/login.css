@@ -26,6 +26,10 @@
     color: #333;
 }
 
+.input_nome{
+    float: left;
+}
+
 .inp_login{
     font-size: 14px;
     padding: 10px 10px;
@@ -62,5 +66,22 @@
 }
 
 .formulario b{
-	
+	font-size: 12px;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.link_crie{
+	text-decoration: none;
+    color:#ff009c;
+}
+
+.box_bt_mostrar{
+    float: right;
+    position: absolute;
+    z-index: 1;
+    margin: 3px 0px 0px -35px;
+    cursor: pointer;
 }

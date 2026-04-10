@@ -6,6 +6,8 @@
 
     <style type="text/css">@import url("css/config_ini.css");</style>
 
+    <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.png" />
+
     <title>Marisa - Seja bem vindo ao nosso site!</title>
 </head>
 <body>
