@@ -136,7 +136,7 @@
     margin-right: 20px;
 }
 
-.bt_token{
+.bt_token, .bt_finaliza{
     width: 100% !important;
     padding: 10px 0px;
     background: #acabab;
@@ -146,6 +146,10 @@
     text-transform: uppercase;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.bt_finaliza{
+    margin-top: 30px;
 }
 
 .txt_token{
@@ -165,6 +169,28 @@
     width: 1024px;
     height: auto;
     margin-top: 20px;
+}
+
+.termo_cpf, .termo_cnpj{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 1024px;
+    height: auto;
+}
+
+.termo_cnpj label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.termo_cnpj span{
+    width: 33%;
+    float: left;
+}
+
+.termo_cnpj input{
+    accent-color: #ff009c;
 }
 
 .cadastro_box3 label{
@@ -187,5 +213,26 @@
 
 .inp_ck_termos{
     accent-color: #ff009c;
+}
+
+.box_form_uf{
+    float: left;
+    width: 170px;
+    margin-right: 20px;
+}
+
+.box_form_trib{
+    float: left;
+    width: 310px;
+}
+
+.inp_cad6{
+    width: 150px;
+    padding: 10px 10px;
+}
+
+.inp_cad7{
+    width: 310px;
+    padding: 10px 10px;
 }
 

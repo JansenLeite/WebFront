@@ -77,6 +77,66 @@
                     </div>
                     
                 </form>
+
+                <form action="" method="" class="form1_1">
+
+                    <div class="box_form">
+                        <b>Nome da Empresa *</b>
+                        <input type="text" name="nome_emp" placeholder="" class="inp_cad1" />
+                    </div>
+
+                    <div class="box_form">
+                        <b>Responsável *</b>
+                        <input type="text" name="nome_resp" placeholder="" class="inp_cad1" />
+                    </div>
+
+                    <div class="box_form">
+                        <b>CNPJ *</b>
+                        <input type="text" name="cnpj" placeholder="" class="inp_cad1" />
+                    </div>
+
+                    <div class="box_form">
+                        <div class="box_form_uf">
+                            <b>UF *</b>
+                            <select class="inp_cad6">
+                                <option value="SP">São Paulo</option>
+                            </select>
+                        </div>
+                        <div class="box_form_trib">
+                            <b>Situação tributária (ICMS) *</b>
+                            <select class="inp_cad7">
+                                <option value="1">Isento</option>
+                                <option value="2">Contribuinte de ICMS</option>
+                                <option value="3">Não Contribuinte de ICMS</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="box_form">
+                        <b>Inscrição Estadual *</b>
+                        <input type="text" name="ie" placeholder="" class="inp_cad1" />
+                    </div>
+
+                    <div class="box_form">
+                        <div class="box_form_ddd1">
+                            <b>DDD *</b>
+                            <input type="text" name="ddd1_1" placeholder="(00)" class="inp_cad4" />
+                        </div>
+                        <div class="box_form_celular">
+                            <b>Celular *</b>
+                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" />
+                        </div>
+                        <div class="box_form_ddd2">
+                            <b>DDD *</b>
+                            <input type="text" name="ddd2_1" placeholder="(00)" class="inp_cad4" />
+                        </div>
+                        <div class="box_form_tel">
+                            <b>Telefone *</b>
+                            <input type="text" name="tel1" placeholder="0000 - 0000" class="inp_cad5" />
+                        </div>
+                    </div>
+                    
+                </form>
             </div>
 
             <div class="cadastro_box2">
@@ -116,8 +176,21 @@
             </div>
 
             <div class="cadastro_box3">
-                <input type="checkbox" class="inp_ck_termos" />
-                <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
+                <div class="termo_cpf">
+                    <input type="checkbox" class="inp_ck_termos" />
+                    <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
+                    <span class="bt_finaliza">Finalizar Cadastro</span>
+                </div>
+
+                <div class="termo_cnpj">
+                    <h2>Ofertas</h2>
+                    <hr />
+                    <label>Deseja receber um boletim com novidades e promoções da Marisa?</label>
+                    <span><input type="checkbox" name="pemail"/>Por E-mail</span>
+                    <span><input type="checkbox" name="pcelular"/>Por Celular</span>
+                    <span class="bt_finaliza">Finalizar Cadastro</span>
+
+                </div>
             </div>
         </div>
     </div>
