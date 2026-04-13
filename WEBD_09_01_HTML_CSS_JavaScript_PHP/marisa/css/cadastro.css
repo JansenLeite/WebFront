@@ -17,7 +17,7 @@
     height: auto;
 }
 
-.cadastro_box1{
+.cadastro_box1, .cadastro_box2{
     position: relative;
     margin: 0 auto;
     float: left;
@@ -25,7 +25,11 @@
     height: auto;
 }
 
-.form1{
+.cadastro_box1{
+    margin-right: 24px;
+}
+
+.form1, .form2{
     width: 500px;
 }
 
@@ -41,7 +45,7 @@
     position: relative;
     margin: 0 auto;
     float: left;
-    width: 100%;
+    width: 500px;
     height: auto;
     padding: 15px 0px;
 }
@@ -53,20 +57,29 @@
     font-weight: bold;
 }
 
+.inp_radio{
+    accent-color: #ff009c;
+}
+
 .box_form b{
     font-size: 13px;
     font-weight: bold;
     display: block;
 }
 
-.inp_cad{
+.inp_cad1, .inp_cad2, .inp_cad3, .inp_cad4, .inp_cad5{
     font-size: 13px;
     font-weight: bold;
     display: block;
-    width: 100%;
-    padding: 7px 0px;
+    padding: 10px 10px;
     outline: none;
     margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+
+.inp_cad1{
+    width: 480px;
 }
 
 .inp_cad:focus{
@@ -85,8 +98,16 @@
     margin-right: 20px;
 }
 
+.inp_cad2{
+    width: 110px;
+}
+
 .box_form_cpf{
     width: 350px;
+}
+
+.inp_cad3{
+    width: 330px;
 }
 
 .subtit1{
@@ -99,104 +120,72 @@
     margin-right: 20px;
 }
 
+.inp_cad4{
+    width: 30px;
+}
+
 .box_form_celular, .box_form_tel{
     width: 170px;
+}
+
+.inp_cad5{
+    width: 150px;
 }
 
 .box_form_celular{
     margin-right: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.formulario{
-    width: 350px;
-    font-family: Arial, Helvetica, sans-serif;
-	padding: 0;
-}
-
-.formulario h3{
-   font-size: 22px;
-   text-align: left; 
-}
-
-.formulario label{
+.bt_token{
+    width: 100% !important;
+    padding: 10px 0px;
+    background: #acabab;
+    color: #fff;
     display: block;
-    font-size: 14px;
-    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.input_nome{
+.txt_token{
+    font-size: 13px;
+    color: #666666;
+    margin-top: 5px;
+    display: block;
+    text-align: left;
+    width: 100%;
     float: left;
 }
 
-.inp_login{
-    font-size: 14px;
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: solid 1px #666;
-    outline: none;
-    width: 330px;
-    margin-bottom: 20px;
+.cadastro_box3{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 1024px;
+    height: auto;
+    margin-top: 20px;
 }
 
-.inp_login:focus{
-	border: solid 1px #ff009c;
-}
-
-.link_esqueceu{
+.cadastro_box3 label{
     font-weight: bold;
-    color: #ff009c;
-    display: block;
-    text-align: center;
-    margin-bottom: 20px;
-    text-decoration: none;
+    line-height: 20px;
 }
 
-.bt_entrar{
-    display: block;
-    padding: 10px 0px;
-    width: 350px;
-    background: #999;
-    color: #fff;
-    font-size: 16px;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 3px;
-}
-
-.formulario b{
-	font-size: 12px;
-    display: block;
-    text-align: center;
-    margin-top: 40px;
-
-}
-
-.link_crie{
-	text-decoration: none;
+.cadastro_box3 a{
     color:#ff009c;
 }
 
 .box_bt_mostrar{
-    float: right;
     position: absolute;
+    float: left;
     z-index: 1;
-    margin: 3px 0px 0px -35px;
     cursor: pointer;
+    margin: -32px 0px 0px 465px;
+    width: 35px;
 }
+
+.inp_ck_termos{
+    accent-color: #ff009c;
+}
+

@@ -36,17 +36,17 @@
 
                     <div class="box_form">
                         <b>Nome completo *</b>
-                        <input type="text" name="login" placeholder="Informe seu nome" class="inp_cad" />
+                        <input type="text" name="login" placeholder="Informe seu nome" class="inp_cad1" />
                     </div>
 
                     <div class="box_form">
                         <div class="box_form_nasc">
                             <b>Data de nescimento*</b>
-                            <input type="text" name="dtnasc" placeholder="00/00/0000" class="inp_cad" />
+                            <input type="text" name="dtnasc" placeholder="00/00/0000" class="inp_cad2" />
                         </div>
                         <div class="box_form_cpf">
                             <b>CPF *</b>
-                            <input type="text" name="login" placeholder="000.000.000-00" class="inp_cad" />
+                            <input type="text" name="login" placeholder="000.000.000-00" class="inp_cad3" />
                         </div>
                     </div>
 
@@ -60,27 +60,65 @@
                     <div class="box_form">
                         <div class="box_form_ddd1">
                             <b>DDD *</b>
-                            <input type="text" name="ddd1" placeholder="(00)" class="inp_cad" />
+                            <input type="text" name="ddd1" placeholder="(00)" class="inp_cad4" />
                         </div>
                         <div class="box_form_celular">
                             <b>Celular *</b>
-                            <input type="text" name="celular" placeholder="0000 - 0000" class="inp_cad" />
+                            <input type="text" name="celular" placeholder="0000 - 0000" class="inp_cad5" />
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD *</b>
-                            <input type="text" name="ddd2" placeholder="(00)" class="inp_cad" />
+                            <input type="text" name="ddd2" placeholder="(00)" class="inp_cad4" />
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone *</b>
-                            <input type="text" name="tel" placeholder="0000 - 0000" class="inp_cad" />
+                            <input type="text" name="tel" placeholder="0000 - 0000" class="inp_cad5" />
                         </div>
                     </div>
                     
                 </form>
             </div>
 
-            <div class="cadastro_box2"></div>
+            <div class="cadastro_box2">
+                <form action="" method="" class="form2">
+                    <div class="box_form">
+                        <b>E-mail*</b>
+                        <input type="text" name="email" placeholder="Informe o e-mail" class="inp_cad1" />
+                    </div>
 
+                    <div class="box_form">
+                        <span class="bt_token">Receber token de cadastro</span>
+                        <label class="txt_token">O token será enviado por e-mail/SMS*</label>
+                    </div>
+
+                    <div class="box_form">
+                        <b>Token*</b>
+                        <input type="text" name="token" placeholder="Informe seu token de cadastro" class="inp_cad1" />
+                    </div>
+
+                    <div class="box_form">
+                        <b>Senha*</b>
+                        <input type="text" name="senha" placeholder="Insira a senha" class="inp_cad1" />
+                        <div class="box_bt_mostrar">
+                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
+                        </div>
+                    </div>
+
+                    <div class="box_form">
+                        <b>Confirmar Senha*</b>
+                        <input type="text" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" />
+                        <div class="box_bt_mostrar">
+                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div class="cadastro_box3">
+                <input type="checkbox" class="inp_ck_termos" />
+                <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
+            </div>
         </div>
     </div>
     <!-- Fim - Cadastro -->
