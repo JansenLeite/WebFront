@@ -7,6 +7,9 @@
     <style type="text/css">@import url("css/config_ini.css");</style>
     <style type="text/css">@import url("css/cadastro.css");</style>
 
+    <script type="text/javascript" src="js/jquery_4_0.js"></script>
+    <script type="text/javascript" src="js/cadastro.js"></script>
+
     <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.png" />
 
     <title>Marisa - Cadastro</title>
@@ -17,22 +20,20 @@
     <!-- Fim - Importa Topo -->
 
     <!-- Inicio - Cadastro -->
-
-
-
-
     <div class="cadastro">
         <div class="cadastro_box">
         
             <div class="cadastro_box1">
-                <form action="" method="" class="form1">
-                    <h3>Quer se cadastrar?</h3>
-                    <label>Por favor preencha os campos abaixo, vai ser rapidinho</label>
+                
+                <h3>Quer se cadastrar?</h3>
+                <label>Por favor preencha os campos abaixo, vai ser rapidinho</label>
 
-                    <div class="box_form">
-                        <span><input type="radio" name="pessoa" class="inp_radio" />Pessoa Física</span>
-                        <span><input type="radio" name="pessoa" class="inp_radio" />Pessoa Jurídica</span>
-                    </div>
+                <div class="box_form">
+                    <span><input type="radio" name="pessoa" class="inp_radio" checked="" id="inp_pf" onclick="mostraPf(this.id)"/>Pessoa Física</span>
+                    <span><input type="radio" name="pessoa" class="inp_radio" id="inp_pj" onclick="mostraPj(this.id)"/>Pessoa Jurídica</span>
+                </div>
+                
+                <form action="" method="" class="form1">
 
                     <div class="box_form">
                         <b>Nome completo *</b>
