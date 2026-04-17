@@ -9,6 +9,7 @@
 
     <script type="text/javascript" src="js/jquery_4_0.js"></script>
     <script type="text/javascript" src="js/cadastro.js"></script>
+    <script type="text/javascript" src="js/mascara.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.png" />
 
@@ -43,7 +44,7 @@
                     <div class="box_form">
                         <div class="box_form_nasc">
                             <b>Data de nescimento*</b>
-                            <input type="text" name="dtnasc" placeholder="00/00/0000" class="inp_cad2" id="pf_dtnasc" />
+                            <input type="text" name="dtnasc" placeholder="00/00/0000" maxlength="10" class="inp_cad2" id="pf_dtnasc" onkeyup="mascaraData(this.id);" />
                         </div>
                         <div class="box_form_cpf">
                             <b>CPF *</b>
