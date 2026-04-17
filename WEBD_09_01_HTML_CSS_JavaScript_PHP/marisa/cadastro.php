@@ -37,43 +37,43 @@
 
                     <div class="box_form">
                         <b>Nome completo *</b>
-                        <input type="text" name="login" placeholder="Informe seu nome" class="inp_cad1" />
+                        <input type="text" name="login" placeholder="Informe seu nome" class="inp_cad1" id="pf_nome" />
                     </div>
 
                     <div class="box_form">
                         <div class="box_form_nasc">
                             <b>Data de nescimento*</b>
-                            <input type="text" name="dtnasc" placeholder="00/00/0000" class="inp_cad2" />
+                            <input type="text" name="dtnasc" placeholder="00/00/0000" class="inp_cad2" id="pf_dtnasc" />
                         </div>
                         <div class="box_form_cpf">
                             <b>CPF *</b>
-                            <input type="text" name="login" placeholder="000.000.000-00" class="inp_cad3" />
+                            <input type="text" name="login" placeholder="000.000.000-00" class="inp_cad3" id="pf_cpf" />
                         </div>
                     </div>
 
                     <div class="box_form">
                         <b class="subtit1">Gênero *</b>
-                        <span><input type="radio" name="genero" class="inp_radio" />Masculino</span>
-                        <span><input type="radio" name="genero" class="inp_radio" />Feminino</span>
-                        <span><input type="radio" name="genero" class="inp_radio" />Não informar</span>
+                        <span><input type="radio" name="genero" class="inp_radio" id="pf_gen_m" />Masculino</span>
+                        <span><input type="radio" name="genero" class="inp_radio" id="pf_gen_f"/>Feminino</span>
+                        <span><input type="radio" name="genero" class="inp_radio" id="pf_gen_nf"/>Não informar</span>
                     </div>
 
                     <div class="box_form">
                         <div class="box_form_ddd1">
                             <b>DDD *</b>
-                            <input type="text" name="ddd1" placeholder="(00)" class="inp_cad4" />
+                            <input type="text" name="ddd1" placeholder="(00)" class="inp_cad4" id="pf_dd1"/>
                         </div>
                         <div class="box_form_celular">
                             <b>Celular *</b>
-                            <input type="text" name="celular" placeholder="0000 - 0000" class="inp_cad5" />
+                            <input type="text" name="celular" placeholder="0000 - 0000" class="inp_cad5" id="pf_cel" />
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD *</b>
-                            <input type="text" name="ddd2" placeholder="(00)" class="inp_cad4" />
+                            <input type="text" name="ddd2" placeholder="(00)" class="inp_cad4" id="pf_dd2"/>
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone *</b>
-                            <input type="text" name="tel" placeholder="0000 - 0000" class="inp_cad5" />
+                            <input type="text" name="tel" placeholder="0000 - 0000" class="inp_cad5" id="pf_tel" />
                         </div>
                     </div>
                     
@@ -83,29 +83,29 @@
 
                     <div class="box_form">
                         <b>Nome da Empresa *</b>
-                        <input type="text" name="nome_emp" placeholder="" class="inp_cad1" />
+                        <input type="text" name="nome_emp" placeholder="" class="inp_cad1" id="pj_nome" />
                     </div>
 
                     <div class="box_form">
                         <b>Responsável *</b>
-                        <input type="text" name="nome_resp" placeholder="" class="inp_cad1" />
+                        <input type="text" name="nome_resp" placeholder="" class="inp_cad1" id="pj_resp" />
                     </div>
 
                     <div class="box_form">
                         <b>CNPJ *</b>
-                        <input type="text" name="cnpj" placeholder="" class="inp_cad1" />
+                        <input type="text" name="cnpj" placeholder="" class="inp_cad1" id="pj_cnpj"/>
                     </div>
 
                     <div class="box_form">
                         <div class="box_form_uf">
                             <b>UF *</b>
-                            <select class="inp_cad6">
+                            <select class="inp_cad6" id="pj_uf">
                                 <option value="SP">São Paulo</option>
                             </select>
                         </div>
                         <div class="box_form_trib">
                             <b>Situação tributária (ICMS) *</b>
-                            <select class="inp_cad7">
+                            <select class="inp_cad7" id="pj_icms">
                                 <option value="1">Isento</option>
                                 <option value="2">Contribuinte de ICMS</option>
                                 <option value="3">Não Contribuinte de ICMS</option>
@@ -115,25 +115,25 @@
 
                     <div class="box_form">
                         <b>Inscrição Estadual *</b>
-                        <input type="text" name="ie" placeholder="" class="inp_cad1" />
+                        <input type="text" name="ie" placeholder="" class="inp_cad1" id="pj_ie" />
                     </div>
 
                     <div class="box_form">
                         <div class="box_form_ddd1">
                             <b>DDD *</b>
-                            <input type="text" name="ddd1_1" placeholder="(00)" class="inp_cad4" />
+                            <input type="text" name="ddd1_1" placeholder="(00)" class="inp_cad4" id="pj_dd1" />
                         </div>
                         <div class="box_form_celular">
                             <b>Celular *</b>
-                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" />
+                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" id="pj_cel"/>
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD *</b>
-                            <input type="text" name="ddd2_1" placeholder="(00)" class="inp_cad4" />
+                            <input type="text" name="ddd2_1" placeholder="(00)" class="inp_cad4" id="pj_dd2" />
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone *</b>
-                            <input type="text" name="tel1" placeholder="0000 - 0000" class="inp_cad5" />
+                            <input type="text" name="tel1" placeholder="0000 - 0000" class="inp_cad5" id="pj_tel" />
                         </div>
                     </div>
                     
@@ -180,7 +180,7 @@
                 <div class="termo_cpf">
                     <input type="checkbox" class="inp_ck_termos" />
                     <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
-                    <span class="bt_finaliza">Finalizar Cadastro</span>
+                    <span class="bt_finaliza" onclick="enviarDadosCpf();">Finalizar Cadastro</span>
                 </div>
 
                 <div class="termo_cnpj">
