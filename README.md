@@ -9,23 +9,22 @@
 
 <b>1. Informática básica</b>
 <ul>
-		<li>1.1. Hardware</li>
-		<li>1.1.1.HD/SSD</li>
-		<li>1.1.2.Memória</li>
-</ul>
-1.1.3.Processador
-1.1.4.Placa mãe
-1.1.5.Placa de vídeo
-1.1.6.Periféricos
-1.2. Software
-1.2.1.Sistema operacional
-1.2.2.Navegadores
-1.2.3.Editor de texto
-1.2.4.Planilhas
-1.2.5.Acessórios
-1.3. Estrutura e Funcionamento da Internet
-1.3.1.Conceitos e terminologias da Web
-1.3.2.Estrutura e funcionamento
+	<li>1.1. Hardware</li>
+	<li>1.1.1.HD/SSD</li>
+	<li>1.1.2.Memória</li>
+	<li>1.1.3.Processador</li>
+	<li>1.1.4.Placa mãe</li>
+	<li>1.1.5.Placa de vídeo</li>
+	<li>1.1.6.Periféricos</li>
+	<li>1.2. Software</li>
+	<li>1.2.1.Sistema operacional</li>
+	<li>1.2.2.Navegadores</li>
+	<li>1.2.3.Editor de texto</li>
+	<li>1.2.4.Planilhas</li>
+	<li>1.2.5.Acessórios</li>
+	<li>1.3. Estrutura e Funcionamento da Internet</li>
+	<li>1.3.1.Conceitos e terminologias da Web</li>
+	<li>1.3.2.Estrutura e funcionamento</li>
 2. Linguagem HTML
 2.1. Estrutura básica de página HTML
 2.2. Semântica no HTML5
@@ -104,5 +103,6 @@ Javascript no desenvolvimento de website
 10.3.1. Configuração e funcionamento
 10.4.Hospedagem
 10.5.Configuração e aplicação
+</ul>
 
 
