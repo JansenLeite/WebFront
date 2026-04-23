@@ -25,84 +25,106 @@
 	<li>1.3. Estrutura e Funcionamento da Internet</li>
 	<li>1.3.1.Conceitos e terminologias da Web</li>
 	<li>1.3.2.Estrutura e funcionamento</li>
-2. Linguagem HTML
-2.1. Estrutura básica de página HTML
-2.2. Semântica no HTML5
-2.3. Tags HTML
-2.4. Indentação de códigos
-3. Linguagem CSS
-3.1. Elementos estruturais
-3.2. Edição em modo inline, interno e externo
-3.3. Seletores e herança
-3.4. Estilização com classes e id’s
-3.5. Elementos de formatação e posicionamento
-3.6. Conceito de responsividade
-3.7. Flexbox
-4. Conceitos básicos de lógica de programação
-4.1. Conceitos
-4.2. Algoritimos
-4.2.1.Variáveis
-4.2.2.Operadores aritméticos, relacionais e
-lógicos
-4.3. Estrutura condicional
-4.3.1.Diagrama de blocos
-5. Linguagem JavaScript
-5.1. Características da linguagem
-5.2. Console do navegador
-5.3. Operadores
-5.3.1.Aritméticos
-5.3.2.Relacionais
-5.3.3.Lógicos
-5.4. Variáveis - Tipos de dados
-5.5. DOM - Document Object Model
-5.5.1.Manipulação dinâmica de HTML
-5.5.2.Manipulação de Eventos da página com
-DOM
-5.5.3.Manipulação de CSS com DOM
-5.6. Blocos condicionais
-5.7. Array
-5.8. Funções
-5.9. Blocos de repetição
-6. Bibliotecas e Frameworks
-6.1. Instalação das principais bibliotecas e
-frameworks do mercado.
-6.2. Utilização das principais bibliotecas e
-frameworks do mercado em páginas Web.
-7. UI/UX
-7.1. Conceitos de UI e UX
-7.2. Tipografia
-7.3. Cores
-7.4. Navegabilidade
-7.5. Fluxo de informações
-7.6. Testes de usabilidade
-7.7. Prototipação
-7.7.1.Conceitos e tipos de protótipos
-7.7.2.Ferramentas e recursos online
-7.7.3.Organograma
-8. Edição de imagens bitmap
-8.1. Interface do software
-8.2. Criação de documento
-8.3. Camadas
-8.4. Seleção
-8.5. Máscara
-8.6. Controle de luz, sombra, matiz e saturação
-8.7. Retoques
-8.8. Exportação de arquivos
-9. Edição de imagens vetoriais
-9.1. Interface do software
-9.2. Criação de documento
-9.3. Criação de formas geométricas
-9.4. Agrupamento e combinação de formas
-9.5. Vetorização
-9.6. Exportação de arquivos
-10. Projeto
-10.1.Briefing
-10.2.Integração das linguagens HTML, CSS e
-Javascript no desenvolvimento de website
-10.3. FTP
-10.3.1. Configuração e funcionamento
-10.4.Hospedagem
-10.5.Configuração e aplicação
+</ul>
+
+<b>2. Linguagem HTML</b>
+<ul>
+	2.1. Estrutura básica de página HTML</li>
+	2.2. Semântica no HTML5</li>
+	2.3. Tags HTML</li>
+	2.4. Indentação de códigos</li>
+</ul>
+
+<b>3. Linguagem CSS</b>
+<ul>
+	<li>3.1. Elementos estruturais</li>
+	<li>3.2. Edição em modo inline, interno e externo</li>
+	<li>3.3. Seletores e herança</li>
+	<li>3.4. Estilização com classes e id’s</li>
+	<li>3.5. Elementos de formatação e posicionamento</li>
+	<li>3.6. Conceito de responsividade</li>
+	<li>3.7. Flexbox</li>
+</ul>
+
+<b>4. Conceitos básicos de lógica de programação</b>
+<ul>
+	<li>4.1. Conceitos</li>
+	<li>4.2. Algoritimos</li>
+	<li>4.2.1.Variáveis</li>
+	<li>4.2.2.Operadores aritméticos, relacionais e lógicos</li>
+	<li>4.3. Estrutura condicional</li>
+	<li>4.3.1.Diagrama de blocos</li>
+</ul>
+
+<b>5. Linguagem JavaScript</b>
+<ul>
+	<li>5.1. Características da linguagem</li>
+	<li>5.2. Console do navegador</li>
+	<li>5.3. Operadores</li>
+	<li>5.3.1.Aritméticos</li>
+	<li>5.3.2.Relacionais</li>
+	<li>5.3.3.Lógicos</li>
+	<li>5.4. Variáveis - Tipos de dados</li>
+	<li>5.5. DOM - Document Object Model</li>
+	<li>5.5.1.Manipulação dinâmica de HTML</li>
+	<li>5.5.2.Manipulação de Eventos da página com DOM</li>
+	<li>5.5.3.Manipulação de CSS com DOM</li>
+	<li>5.6. Blocos condicionais</li>
+	<li>5.7. Array</li>
+	<li>5.8. Funções</li>
+	<li>5.9. Blocos de repetição</li>
+</ul>
+
+<b>6. Bibliotecas e Frameworks</b>
+<ul>
+	<li>6.1. Instalação das principais bibliotecas e frameworks do mercado.</li>
+	<li>6.2. Utilização das principais bibliotecas e frameworks do mercado em páginas Web.</li>
+</ul>
+
+<b>7. UI/UX</b>
+<ul>
+	<li>7.1. Conceitos de UI e UX</li>
+	<li>7.2. Tipografia</li>
+	<li>7.3. Cores</li>
+	<li>7.4. Navegabilidade</li>
+	<li>7.5. Fluxo de informações</li>
+	<li>7.6. Testes de usabilidade</li>
+	<li>7.7. Prototipação</li>
+	<li>7.7.1.Conceitos e tipos de protótipos</li>
+	<li>7.7.2.Ferramentas e recursos online</li>
+	<li>7.7.3.Organograma</li>
+</ul>
+
+<b>8. Edição de imagens bitmap</b>
+<ul>
+	<li>8.1. Interface do software</li>
+	<li>8.2. Criação de documento</li>
+	<li>8.3. Camadas</li>
+	<li>8.4. Seleção</li>
+	<li>8.5. Máscara</li>
+	<li>8.6. Controle de luz, sombra, matiz e saturação</li>
+	<li>8.7. Retoques</li>
+	<li>8.8. Exportação de arquivos</li>
+</ul>
+
+<b>9. Edição de imagens vetoriais</b>
+<ul>
+	<li>9.1. Interface do software</li>
+	<li>9.2. Criação de documento</li>
+	<li>9.3. Criação de formas geométricas</li>
+	<li>9.4. Agrupamento e combinação de formas</li>
+	<li>9.5. Vetorização</li>
+	<li>9.6. Exportação de arquivos</li>
+</ul>
+
+<b>10. Projeto</b>
+<ul>
+	<li>10.1.Briefing</li>
+	<li>10.2.Integração das linguagens HTML, CSS e Javascript no desenvolvimento de website</li>
+	<li>10.3. FTP</li>
+	<li>10.3.1. Configuração e funcionamento</li>
+	<li>10.4.Hospedagem</li>
+	<li>10.5.Configuração e aplicação</li>
 </ul>
 
 
