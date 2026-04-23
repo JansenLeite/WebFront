@@ -8,9 +8,11 @@
 <h3>Conteúdo Formativo - Conhecimentos:</h3>
 
 <b>1. Informática básica</b>
-<pre><li>1.1. Hardware</li></pre>
-<pre><li>1.1.1.HD/SSD</li></pre>
-<pre><li>1.1.2.Memória</li></pre>
+<ul>
+	<li>1.1. Hardware</li>
+	<li>1.1.1.HD/SSD</li>
+	<li>1.1.2.Memória</li>
+</ul>
 1.1.3.Processador
 1.1.4.Placa mãe
 1.1.5.Placa de vídeo
