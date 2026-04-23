@@ -9,8 +9,8 @@
 
 <b>1. Informática básica</b>
 <pre><li>1.1. Hardware</li></pre>
-1.1.1.HD/SSD
-1.1.2.Memória
+<pre><li>1.1.1.HD/SSD</li></pre>
+<pre><li>1.1.2.Memória</li></pre>
 1.1.3.Processador
 1.1.4.Placa mãe
 1.1.5.Placa de vídeo
