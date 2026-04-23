@@ -5,7 +5,7 @@
 
 <p><b>Carga Horária:</b> 180 Horas.</p>
 
-<p><b>Conteúdo Formativo - Conhecimentos:</b></p>
+<h3>Conteúdo Formativo - Conhecimentos:</h3>
 
 <b>1. Informática básica</b>
 <li>1.1. Hardware</li>
