@@ -1,3 +1,7 @@
+<?php 
+    require_once("conexao/conexao.php");
+    require_once("classes/class_estados.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +52,7 @@
                         </div>
                         <div class="box_form_cpf">
                             <b>CPF *</b>
-                            <input type="text" name="login" placeholder="000.000.000-00" class="inp_cad3" id="pf_cpf" />
+                            <input type="text" name="login" placeholder="000.000.000-00" maxlength="14" class="inp_cad3" id="pf_cpf" onkeyup="mascaraCpf(this.id);" />
                         </div>
                     </div>
 
@@ -62,19 +66,19 @@
                     <div class="box_form">
                         <div class="box_form_ddd1">
                             <b>DDD *</b>
-                            <input type="text" name="ddd1" placeholder="(00)" class="inp_cad4" id="pf_dd1"/>
+                            <input type="text" name="ddd1" placeholder="(00)" maxlength="4" class="inp_cad4" id="pf_dd1" onkeyup="mascaraDdd(this.id);"/>
                         </div>
                         <div class="box_form_celular">
                             <b>Celular *</b>
-                            <input type="text" name="celular" placeholder="0000 - 0000" class="inp_cad5" id="pf_cel" />
+                            <input type="text" name="celular" placeholder="00000-0000" maxlength="10" class="inp_cad5" id="pf_cel" onkeyup="mascaraCel(this.id);" />
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD *</b>
-                            <input type="text" name="ddd2" placeholder="(00)" class="inp_cad4" id="pf_dd2"/>
+                            <input type="text" name="ddd2" placeholder="(00)" maxlength="4" class="inp_cad4" id="pf_dd2" onkeyup="mascaraDdd(this.id);"/>
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone *</b>
-                            <input type="text" name="tel" placeholder="0000 - 0000" class="inp_cad5" id="pf_tel" />
+                            <input type="text" name="tel" placeholder="0000-0000" maxlength="9" class="inp_cad5" id="pf_tel" onkeyup="mascaraTel(this.id);"/>
                         </div>
                     </div>
                     
@@ -94,14 +98,21 @@
 
                     <div class="box_form">
                         <b>CNPJ *</b>
-                        <input type="text" name="cnpj" placeholder="" class="inp_cad1" id="pj_cnpj"/>
+                        <input type="text" name="cnpj" placeholder="00.000.000/0000-00" maxlength="18" class="inp_cad1" id="pj_cnpj" onkeyup="mascaraCnpj(this.id);"/>
                     </div>
 
                     <div class="box_form">
                         <div class="box_form_uf">
                             <b>UF *</b>
                             <select class="inp_cad6" id="pj_uf">
-                                <option value="SP">São Paulo</option>
+                                <?php
+                                    $consultaUf = new selecionaEstados();
+                                    while($retornaUf = mysqli_fetch_array($consultaUf->executa)){
+                                ?>
+                                    <option value="<?php echo $retornaUf['sigla'];?>"><?php echo $retornaUf['nome'];?></option>
+                                <?php
+                                    }
+                                ?>
                             </select>
                         </div>
                         <div class="box_form_trib">
@@ -122,19 +133,19 @@
                     <div class="box_form">
                         <div class="box_form_ddd1">
                             <b>DDD *</b>
-                            <input type="text" name="ddd1_1" placeholder="(00)" class="inp_cad4" id="pj_dd1" />
+                            <input type="text" name="ddd1_1" placeholder="(00)" maxlength="4" class="inp_cad4" id="pj_dd1" onkeyup="mascaraDdd(this.id);" />
                         </div>
                         <div class="box_form_celular">
                             <b>Celular *</b>
-                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" id="pj_cel"/>
+                            <input type="text" name="celular1" placeholder="00000-0000" maxlength="10" class="inp_cad5" id="pj_cel" onkyup="mascaraCel(this.id);"/>
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD *</b>
-                            <input type="text" name="ddd2_1" placeholder="(00)" class="inp_cad4" id="pj_dd2" />
+                            <input type="text" name="ddd2_1" placeholder="(00)" maxlength="4" class="inp_cad4" id="pj_dd2" onkeyup="mascaraDdd(this.id);" />
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone *</b>
-                            <input type="text" name="tel1" placeholder="0000 - 0000" class="inp_cad5" id="pj_tel" />
+                            <input type="text" name="tel1" placeholder="0000-0000" maxlength="9" class="inp_cad5" id="pj_tel" onkeyup="mascaraTel(this.id);"/>
                         </div>
                     </div>
                     
