@@ -14,6 +14,21 @@ function mostraPf(id){
 }
 
 function enviarDadosCpf(){
+
+    /*
+    if(validarData("pf_dtnasc")){
+        alert("Data válida!");
+    }else{
+        alert("Data com erro!");
+    }
+    */
+
+    if(validarCPF("pf_cpf")){
+        alert("CPF correto!");
+    }else{
+        alert("CPF inválido!");
+    }
+
     var nome = document.getElementById("pf_nome").value;
     var dtnasc = document.getElementById("pf_dtnasc").value;
     var cpf = document.getElementById("pf_cpf").value;
@@ -26,7 +41,14 @@ function enviarDadosCpf(){
     var tel = document.getElementById("pf_tel").value;
 }
 
-function enviarDadosCnpj(){
+function enviarDadosCNPJ(){
+
+if(validarCNPJ("pj_cnpj")){
+    alert("CNPJ correto!");
+}else{
+    alert("CNPJ inválido!");
+}
+
     var nome = document.getElementById("pj_nome").value;
     var dtnasc = document.getElementById("pj_resp").value;
     var cnpj = document.getElementById("pj_cnpj").value;
@@ -37,4 +59,16 @@ function enviarDadosCnpj(){
     var cel = document.getElementById("pj_cel").value;
     var dd2 = document.getElementById("pj_dd2").value;
     var tel = document.getElementById("pj_tel").value;
+}
+
+function mostraSenha1(id){
+    $("#" + id).hide();
+    $("#pass_oculta1").show();
+    document.getElementById("inp_pass1").type = "text";
+}
+
+function ocultaSenha1(id){
+    $("#" + id).hide();
+    $("#pass_mostra1").show();
+    document.getElementById("inp_pass1").type = "password";
 }

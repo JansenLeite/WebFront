@@ -14,6 +14,7 @@
     <script type="text/javascript" src="js/jquery_4_0.js"></script>
     <script type="text/javascript" src="js/cadastro.js"></script>
     <script type="text/javascript" src="js/mascara.js"></script>
+    <script type="text/javascript" src="js/validacao.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.png" />
 
@@ -137,7 +138,7 @@
                         </div>
                         <div class="box_form_celular">
                             <b>Celular *</b>
-                            <input type="text" name="celular1" placeholder="00000-0000" maxlength="10" class="inp_cad5" id="pj_cel" onkyup="mascaraCel(this.id);"/>
+                            <input type="text" name="celular1" placeholder="00000-0000" maxlength="10" class="inp_cad5" id="pj_cel" onkeyup="mascaraCel(this.id);"/>
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD *</b>
@@ -171,15 +172,16 @@
 
                     <div class="box_form">
                         <b>Senha*</b>
-                        <input type="text" name="senha" placeholder="Insira a senha" class="inp_cad1" />
+                        <input type="password" name="senha" placeholder="Insira a senha" class="inp_cad1" id="inp_pass1" />
                         <div class="box_bt_mostrar">
-                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
+                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" id="pass_mostra1" onclick="mostraSenha1(this.id);"/>
+                            <img src="images/eye-open.png" alt="Oculta Senha" class="bt_mostra_senha" id="pass_oculta1" onclick="ocultaSenha1(this.id);"/>
                         </div>
                     </div>
 
                     <div class="box_form">
                         <b>Confirmar Senha*</b>
-                        <input type="text" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" />
+                        <input type="password" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" />
                         <div class="box_bt_mostrar">
                             <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
                         </div>
@@ -201,7 +203,7 @@
                     <label>Deseja receber um boletim com novidades e promoções da Marisa?</label>
                     <span><input type="checkbox" name="pemail"/>Por E-mail</span>
                     <span><input type="checkbox" name="pcelular"/>Por Celular</span>
-                    <span class="bt_finaliza">Finalizar Cadastro</span>
+                    <span class="bt_finaliza" onclick="enviarDadosCNPJ();">Finalizar Cadastro</span>
 
                 </div>
             </div>
