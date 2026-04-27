@@ -244,6 +244,6 @@
     border: solid 1px #ff009c;
 }
 
-#pass_oculta1{
+#pass_oculta1, #pass_oculta2 {
     display: none;
 }

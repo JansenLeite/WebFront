@@ -157,7 +157,7 @@
                 <form action="" method="" class="form2">
                     <div class="box_form">
                         <b>E-mail*</b>
-                        <input type="text" name="email" placeholder="Informe o e-mail" class="inp_cad1" />
+                        <input type="text" name="email" placeholder="Informe o e-mail" class="inp_cad1" id="inp_email" />
                     </div>
 
                     <div class="box_form">
@@ -175,15 +175,16 @@
                         <input type="password" name="senha" placeholder="Insira a senha" class="inp_cad1" id="inp_pass1" />
                         <div class="box_bt_mostrar">
                             <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" id="pass_mostra1" onclick="mostraSenha1(this.id);"/>
-                            <img src="images/eye-open.png" alt="Oculta Senha" class="bt_mostra_senha" id="pass_oculta1" onclick="ocultaSenha1(this.id);"/>
+                            <img src="images/eye-open.png" alt="Oculta Senha" class="bt_mostra_senha" id="pass_oculta1" onclick="ocultaSenha1(this.id);" />
                         </div>
                     </div>
 
                     <div class="box_form">
                         <b>Confirmar Senha*</b>
-                        <input type="password" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" />
+                        <input type="password" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" id="inp_pass2" />
                         <div class="box_bt_mostrar">
-                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
+                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" id="pass_mostra2" onclick="mostraSenha2(this.id);" />
+                            <img src="images/eye-open.png" alt="Oculta Senha" class="bt_mostra_senha" id="pass_oculta2" onclick="ocultaSenha2(this.id);" />
                         </div>
                     </div>
                     

@@ -21,13 +21,21 @@ function enviarDadosCpf(){
     }else{
         alert("Data com erro!");
     }
-    */
+    
 
     if(validarCPF("pf_cpf")){
         alert("CPF correto!");
     }else{
         alert("CPF inválido!");
     }
+    */
+
+    if(validarEmail("inp_email")){
+        alert("E-Mail válido!!!");
+    }else{
+        alert("E-mail incorreto!");
+    }
+    
 
     var nome = document.getElementById("pf_nome").value;
     var dtnasc = document.getElementById("pf_dtnasc").value;
@@ -39,6 +47,7 @@ function enviarDadosCpf(){
     var cel = document.getElementById("pf_cel").value;
     var dd2 = document.getElementById("pf_dd2").value;
     var tel = document.getElementById("pf_tel").value;
+    var email = document.getElementById("inp_email").value;
 }
 
 function enviarDadosCNPJ(){
@@ -71,4 +80,16 @@ function ocultaSenha1(id){
     $("#" + id).hide();
     $("#pass_mostra1").show();
     document.getElementById("inp_pass1").type = "password";
+}
+
+function mostraSenha2(id){
+    $("#" + id).hide();
+    $("#pass_oculta2").show();
+    document.getElementById("inp_pass2").type = "text";
+}
+
+function ocultaSenha2(id){
+    $("#" + id).hide();
+    $("#pass_mostra2").show();
+    document.getElementById("inp_pass2").type = "password";
 }
