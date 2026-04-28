@@ -167,7 +167,7 @@
 
                     <div class="box_form">
                         <b>Token*</b>
-                        <input type="text" name="token" placeholder="Informe seu token de cadastro" class="inp_cad1" />
+                        <input type="text" name="token" placeholder="Informe seu token de cadastro" class="inp_cad1" id="inp_token" />
                     </div>
 
                     <div class="box_form">
@@ -193,7 +193,7 @@
 
             <div class="cadastro_box3">
                 <div class="termo_cpf">
-                    <input type="checkbox" class="inp_ck_termos" />
+                    <input type="checkbox" class="inp_ck_termos" id="chk_termo_cpf" />
                     <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
                     <span class="bt_finaliza" onclick="enviarDadosCpf();">Finalizar Cadastro</span>
                 </div>

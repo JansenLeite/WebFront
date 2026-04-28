@@ -111,3 +111,87 @@ function validarEmail(id) {
   const regex = /^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
   return regex.test(email);
 }
+
+function validaGenero(){
+  alert("teste1");
+  if(document.getElementById("pf_gen_m").checked == false 
+      && document.getElementById("pf_gen_f").checked == false 
+      && document.getElementById("pf_gen_nf").checked == false
+  ){
+    return false;
+  }else{
+    return true;
+  }
+}
+
+function validaNomePf(id){
+  let nome = document.getElementById(id).value;
+  if(nome.length >= 5){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function validaToken(id){
+  let token = document.getElementById(id).value;
+  if(token.length >= 9){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function validaSenha(id){
+  let senha = document.getElementById(id).value;
+  if(senha.length >= 8){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function comparaSenhas(){
+  let senha1 = document.getElementById("inp_pass1").value;
+  let senha2 = document.getElementById("inp_pass2").value;
+  if(senha1 === senha2){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function validaTermoPf(id){
+  if(document.getElementById(id).checked == true){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function validaDdd(id){
+  let ddd = document.getElementById(id).value;
+  if(ddd.length == 4){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function validaCel(id){
+  let cel = document.getElementById(id).value;
+  if(cel.length == 10){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function validaTel(id){
+  let tel = document.getElementById(id).value;
+  if(tel.length == 9){
+    return true;
+  }else{
+    return false;
+  }
+}
