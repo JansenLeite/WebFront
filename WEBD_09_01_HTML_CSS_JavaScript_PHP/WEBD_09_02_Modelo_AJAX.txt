@@ -1,0 +1,46 @@
+############ Rotina AJAX utilizado método POST #################
+
+<!---- Rotina utilizando retorno em HTML ----->
+
+function nomeDaFuncao(parametro){
+	
+	$.ajax({
+        url: 'caminhodoarquivo.php',
+        type: 'post',
+        dataType: 'html',
+		data: {parametro: parametro},
+        beforeSend : function(){
+            
+        },
+        success: function(result){
+            
+        },
+        error: function(result){
+            
+        }
+    });
+}
+
+############ Rotina AJAX utilizado método GET #################
+
+<!---- Rotina utilizando retorno em HTML ----->
+
+function nomeDaFuncao(parametro){
+	$.ajax({
+        url: 'caminhodoarquivo.php',
+        type: 'get',
+        dataType: 'html',
+       
+        beforeSend : function(){
+			
+        },
+        success: function(result){
+            
+        },
+        error: function(result){
+            
+        }
+    });
+}
+
+
