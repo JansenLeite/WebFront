@@ -113,7 +113,6 @@ function validarEmail(id) {
 }
 
 function validaGenero(){
-  alert("teste1");
   if(document.getElementById("pf_gen_m").checked == false 
       && document.getElementById("pf_gen_f").checked == false 
       && document.getElementById("pf_gen_nf").checked == false
