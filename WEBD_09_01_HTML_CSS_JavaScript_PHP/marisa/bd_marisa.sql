@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 28/04/2026 às 00:50
+-- Tempo de geração: 05/05/2026 às 02:47
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -66,6 +66,27 @@ INSERT INTO `estados` (`id`, `sigla`, `nome`) VALUES
 (26, 'SE', 'Sergipe'),
 (27, 'TO', 'Tocantins');
 
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `usuario_pf`
+--
+
+CREATE TABLE `usuario_pf` (
+  `id` int(11) NOT NULL,
+  `nome` text NOT NULL,
+  `dtnasc` varchar(10) NOT NULL,
+  `cpf` varchar(14) NOT NULL,
+  `genero` varchar(13) NOT NULL,
+  `dd1` varchar(4) NOT NULL,
+  `cel` varchar(10) NOT NULL,
+  `dd2` varchar(4) NOT NULL,
+  `tel` varchar(9) NOT NULL,
+  `email` text NOT NULL,
+  `token` varchar(11) NOT NULL,
+  `senha` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 --
 -- Índices para tabelas despejadas
 --
@@ -78,6 +99,12 @@ ALTER TABLE `estados`
   ADD UNIQUE KEY `sigla` (`sigla`);
 
 --
+-- Índices de tabela `usuario_pf`
+--
+ALTER TABLE `usuario_pf`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT para tabelas despejadas
 --
 
@@ -86,6 +113,12 @@ ALTER TABLE `estados`
 --
 ALTER TABLE `estados`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+
+--
+-- AUTO_INCREMENT de tabela `usuario_pf`
+--
+ALTER TABLE `usuario_pf`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

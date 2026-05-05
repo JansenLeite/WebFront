@@ -1,6 +1,6 @@
 <?php
-    //require_once("../conexao/conexao.php");
-    //require_once("../classes/class_cadastros.php");
+    require_once("../conexao/conexao.php");
+    require_once("../classes/class_cadastros.php");
     $nome = $_POST['nome'];
     $dtnasc = $_POST['dtnasc'];
     $cpf = $_POST['cpf'];
@@ -12,7 +12,7 @@
     $email = $_POST['email'];
     $token = $_POST['token'];
     $senha1 = $_POST['senha1'];
-    /*
+  
     $cadastra = new cadastraUsuarioPf($nome, $dtnasc, $cpf, $genero, $dd1, $cel, $dd2, $tel, $email, $token, $senha1);
 
     if($cadastra->error){
@@ -20,6 +20,6 @@
     }else{
         echo "Cadastro realizado com sucesso!";
     }
-    */
-    echo $nome." / ".$dtnasc." / ".$cpf." / ".$genero." / ".$dd1." / ".$cel." / ".$dd2." / ".$tel." / ".$email." / ".$token." / ".$senha1;
+    
+    //echo $nome." / ".$dtnasc." / ".$cpf." / ".$genero." / ".$dd1." / ".$cel." / ".$dd2." / ".$tel." / ".$email." / ".$token." / ".$senha1;
 ?>
